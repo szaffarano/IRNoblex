@@ -17,9 +17,11 @@ Es una versión preliminar, muy primitiva, deducida por ingeniería inversa anal
     + Un bit "separador" que consiste un pulso mark de 640 y un pulso space de 19240.  Este separador se ubica en la posición 36 de la trama de 64 bits.
     + Cuatro bits que hacen las veces de checksum, calculado como la suma big endian de los 8 bytes precedentes interpretados también como big endian.
 
+```
         +---+--------------+---+------------+-----+
         | H |   35 bits    |sep|   28 bits  | crc |
         +---+--------------+---+------------+-----+ 
+```
 
 ### Modo
 
@@ -69,14 +71,15 @@ Se representa con un bit en frame[21].
 
 Solo una parte de los bits varían según la funcionalidad interpretada, el resto se mantiene invariante:
 
-frame = [
-    0b00110010, # modo, power, fan, swing
-    0b01010000, # temperatura
-    0b00000010, # light
-    0b00001010, # siempre igual 
-    0b010s1000, # la "s" es el separador, swing
-    0b00000000, # siempre igual
-    0b01000000, # siempre igual
-    0b00000000  # siempre igual
-]
-
+```c
+  uint8_t frame[8] = {
+    0,    // mode[0:2], power[3], fan[4:5], swing[6], zero[7]
+    0,    // temp[0:3], zero[4:7]
+    0,    // ligth[5], zero[0:4], one[6], zero[7]
+    0x0A, // fixed[0:7]
+    0x50, // fixed[0:3], separator[3], swing[4]
+    0x00, // fixed[0:7]
+    0x40, // fixed[0:7]
+    0x00  // fixed[0:7]
+  };
+```
