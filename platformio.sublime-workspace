@@ -1,0 +1,827 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"read"
+			],
+			[
+				"SW",
+				"SWING_OFFSET"
+			],
+			[
+				"c",
+				"checksums"
+			],
+			[
+				"fan",
+				"FAN_SPEED_OFFSET"
+			],
+			[
+				"cal",
+				"calc_checksum"
+			],
+			[
+				"HEA",
+				"HEADER1"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"th",
+				"Theta1"
+			],
+			[
+				"The",
+				"Theta1"
+			],
+			[
+				"Th",
+				"Theta1"
+			],
+			[
+				"del",
+				"delta_1"
+			],
+			[
+				"si",
+				"sigmoidGradient"
+			],
+			[
+				"sig",
+				"sigmoid"
+			],
+			[
+				"t",
+				"Theta1"
+			],
+			[
+				"the",
+				"Theta1_grad"
+			],
+			[
+				"L_",
+				"L_in"
+			],
+			[
+				"TH",
+				"Theta2"
+			],
+			[
+				"T",
+				"Theta2"
+			],
+			[
+				"p",
+				"Pi	 Ɩ"
+			],
+			[
+				"prin",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"act",
+				"activation3"
+			],
+			[
+				"ze",
+				"zeta2"
+			],
+			[
+				"list",
+				"listThree"
+			],
+			[
+				"listT",
+				"listThree"
+			],
+			[
+				"alpha",
+				"alpha_colours"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/ACNoblex.cpp",
+			"settings":
+			{
+				"buffer_size": 3035,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "01. POWER: on	MODE: auto	FAN: auto	SWING: off	LIGHT: on\n02. POWER: on	MODE: cool	FAN: auto	SWING: off	LIGHT: on	TEMP: 25\n03. POWER: on	MODE: dry	FAN: auto	SWING: off	LIGHT: on	TEMP: 25\n04. POWER: on	MODE: fan	FAN: auto	SWING: off	LIGHT: on	TEMP: 25\n05. POWER: on	MODE: heat	FAN: auto	SWING: off	LIGHT: on	TEMP: 28\n06. POWER: off	MODE: heat	FAN: auto	SWING: off	LIGHT: on	TEMP: 28\n07. POWER: on	MODE: cool	FAN: min	SWING: off	LIGHT: on	TEMP: 25\n08. POWER: on	MODE: cool	FAN: med	SWING: off	LIGHT: on	TEMP: 25\n09. POWER: on	MODE: cool	FAN: max	SWING: off	LIGHT: on	TEMP: 25\n10. POWER: on	MODE: cool	FAN: auto	SWING: off	LIGHT: on	TEMP: 26\n11. POWER: on	MODE: dry	FAN: auto	SWING: off	LIGHT: on	TEMP: 26\n12. POWER: on	MODE: fan	FAN: auto	SWING: off	LIGHT: on	TEMP: 26\n13. POWER: on	MODE: heat	FAN: auto	SWING: off	LIGHT: on	TEMP: 27\n14. POWER: on	MODE: heat	FAN: auto	SWING: off	LIGHT: on	TEMP: 26\n15. POWER: on	MODE: auto	FAN: auto	SWING: on	LIGHT: on\n16. POWER: on	MODE: cool	FAN: auto	SWING: on	LIGHT: on	TEMP: 26\n17. POWER: on	MODE: dry	FAN: auto	SWING: on	LIGHT: on	TEMP: 26\n18. POWER: on	MODE: fan	FAN: auto	SWING: on	LIGHT: on	TEMP: 26\n19. POWER: on	MODE: heat	FAN: auto	SWING: on	LIGHT: on	TEMP: 26\n20. POWER: on	MODE: auto	FAN: auto	SWING: on	LIGHT: off\n21. POWER: on	MODE: cool	FAN: auto	SWING: on	LIGHT: off	TEMP: 26\n22. POWER: on	MODE: dry	FAN: auto	SWING: on	LIGHT: off	TEMP: 26\n23. POWER: on	MODE: fan	FAN: auto	SWING: on	LIGHT: off	TEMP: 26\n24. POWER: on	MODE: heat	FAN: auto	SWING: on	LIGHT: off	TEMP: 26\n--\n\n01. h 000 1 00 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 1011\n02. h 100 1 00 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 0111\n03. h 010 1 10 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 1111\n04. h 110 1 00 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 0000\n05. h 001 1 00 0 00011 000000000 1 1000001010010 s 0 000000000000100000000000000 0010\n06. h 001 0 00 0 00011 000000000 1 1000001010010 s 0 000000000000100000000000000 0011\n07. h 100 1 10 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 0111\n08. h 100 1 01 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 0111\n09. h 100 1 11 0 01001 000000000 1 1000001010010 s 0 000000000000100000000000000 0111\n10. h 100 1 00 0 00101 000000000 1 1000001010010 s 0 000000000000100000000000000 1111\n11. h 010 1 10 0 00101 000000000 1 1000001010010 s 0 000000000000100000000000000 0000\n12. h 110 1 00 0 00101 000000000 1 1000001010010 s 0 000000000000100000000000000 1000\n13. h 001 1 00 0 01101 000000000 1 1000001010010 s 0 000000000000100000000000000 1100\n14. h 001 1 00 0 00101 000000000 1 1000001010010 s 0 000000000000100000000000000 0100\n15. h 000 1 00 1 01001 000000000 1 1000001010010 s 1 000000000000100000000000000 1011\n16. h 100 1 00 1 00101 000000000 1 1000001010010 s 1 000000000000100000000000000 1111\n17. h 010 1 10 1 00101 000000000 1 1000001010010 s 1 000000000000100000000000000 0000\n18. h 110 1 00 1 00101 000000000 1 1000001010010 s 1 000000000000100000000000000 1000\n19. h 001 1 00 1 00101 000000000 1 1000001010010 s 1 000000000000100000000000000 0100\n20. h 000 1 00 1 01001 000000000 0 1000001010010 s 1 000000000000100000000000000 1011\n21. h 100 1 00 1 00101 000000000 0 1000001010010 s 1 000000000000100000000000000 1111\n22. h 010 1 10 1 00101 000000000 0 1000001010010 s 1 000000000000100000000000000 0000\n23. h 110 1 00 1 00101 000000000 0 1000001010010 s 1 000000000000100000000000000 1000\n24. h 001 1 00 1 00101 000000000 0 1000001010010 s 1 000000000000100000000000000 0100\n\n## Notas\n\n* En modo: dry FAN: **SIEMPRE** es min!!!!\n\n## raw\n\n",
+			"file": "doc/casos2",
+			"file_size": 3642,
+			"file_write_time": 130953911447344418,
+			"settings":
+			{
+				"buffer_size": 3649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "0001000010010000000001100000101001000000000000001000000000000001011\n1001000010010000000001100000101001000000000000001000000000000000111\n0101100010010000000001100000101001000000000000001000000000000001111\n1101000010010000000001100000101001000000000000001000000000000000000\n0011000000110000000001100000101001000000000000001000000000000000010\n0010000000110000000001100000101001000000000000001000000000000000011\n1001100010010000000001100000101001000000000000001000000000000000111\n1001010010010000000001100000101001000000000000001000000000000000111\n1001110010010000000001100000101001000000000000001000000000000000111\n1001000001010000000001100000101001000000000000001000000000000001111\n0101100001010000000001100000101001000000000000001000000000000000000\n1101000001010000000001100000101001000000000000001000000000000001000\n0011000011010000000001100000101001000000000000001000000000000001100\n0011000001010000000001100000101001000000000000001000000000000000100\n0001001010010000000001100000101001010000000000001000000000000001011\n1001001001010000000001100000101001010000000000001000000000000001111\n0101101001010000000001100000101001010000000000001000000000000000000\n1101001001010000000001100000101001010000000000001000000000000001000\n0011001001010000000001100000101001010000000000001000000000000000100\n0001001010010000000000100000101001010000000000001000000000000001011\n1001001001010000000000100000101001010000000000001000000000000001111\n0101101001010000000000100000101001010000000000001000000000000000000\n1101001001010000000000100000101001010000000000001000000000000001000\n0011001001010000000000100000101001010000000000001000000000000000100\n0011001001010000000000100000101001010000\n001100100101000000000010000010100101\n001100100101000000000010000010100101\n\n000000000000100000000000000 0100\n",
+			"settings":
+			{
+				"buffer_size": 1781,
+				"line_ending": "Unix",
+				"name": "00010000100100000000011000001010010000000000000010"
+			}
+		},
+		{
+			"file": "cuenta.py",
+			"settings":
+			{
+				"buffer_size": 866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 2003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ACNoblex.h",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 3324,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "PlatformIO",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"PlatformIO",
+					""
+				],
+				[
+					"PlatformIO",
+					"Clean"
+				],
+				[
+					"PlatformIO",
+					"Upload"
+				]
+			],
+			[
+				"PlatformIO",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 212.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"GoSublime: ",
+				"GoSublime: Show errors"
+			],
+			[
+				"build",
+				"Build With: GoSublime"
+			],
+			[
+				"fmt",
+				"GoSublime: Fmt and save"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ensime:",
+				"Ensime: Build"
+			],
+			[
+				"ensime: ",
+				"Ensime: Build"
+			],
+			[
+				"ensime: ser",
+				"Ensime: Server Log"
+			],
+			[
+				"ensime",
+				"Ensime: Startup"
+			],
+			[
+				"ENSIME",
+				"Ensime: Build"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"proj",
+				"AVR: Create/Update Project"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 154.0,
+		"history":
+		[
+			"/tmp/t.py",
+			"import sublime_plugin",
+			"import sublime",
+			"print \"hola\"",
+			"clear",
+			"CLEAR",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sebas/Develop/Arduino/IRNoblex",
+		"/home/sebas/Develop/Arduino/IRNoblex/src"
+	],
+	"file_history":
+	[
+		"/home/sebas/Develop/Arduino/IRNoblex/doc/casos.",
+		"/home/sebas/Develop/Arduino/IRNoblex/platformio.ini",
+		"/home/sebas/Develop/Arduino/IRNoblex/src/main.cpp",
+		"/home/sebas/Develop/Arduino/IRNoblex/src/Utils.h",
+		"/home/sebas/Develop/Arduino/IRNoblex/src/IRNoblex.ino",
+		"/home/sebas/Develop/Arduino/IRNoblex/src/ACNoblex.h",
+		"/home/sebas/Develop/Arduino/IRNoblex/src/ACNoblex.cpp",
+		"/home/sebas/crc/sin_andar.txt",
+		"/home/sebas/crc/andando.txt",
+		"/home/sebas/crc/commands.binary",
+		"/home/sebas/crc/commands",
+		"/home/sebas/crc/decode2.py",
+		"/home/sebas/numeros.py",
+		"/home/sebas/crc/data",
+		"/home/sebas/decode2.py",
+		"/home/sebas/crc/tester.py",
+		"/home/sebas/crc/commands_binary",
+		"/home/sebas/crc/encode.c",
+		"/home/sebas/analisis.txt",
+		"/home/sebas/sample2",
+		"/home/sebas/decode.c",
+		"/home/sebas/encode.py",
+		"/home/sebas/commands_temp",
+		"/home/sebas/commands",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/IRremote.cpp",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/irSend.cpp",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/irPronto.cpp",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/examples/JVCPanasonicSendDemo/JVCPanasonicSendDemo.ino",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/ir_Panasonic.cpp",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/ir_Sanyo.cpp",
+		"/home/sebas/Arduino/libraries/Arduino-IRremote/ir_Sharp.cpp",
+		"/home/sebas/mediciones.csv",
+		"/home/sebas/codigos_ir.txt",
+		"/home/sebas/Arduino/PruebasIR/PruebasIR.ino",
+		"/home/sebas/Arduino/PruebasIR/stino.settings",
+		"/home/sebas/Develop/MySensorsArduino/libraries/MySensors/examples/IrSensor/IrSensor.ino",
+		"/tmp/off2",
+		"/tmp/on2",
+		"/tmp/on",
+		"/tmp/off",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex4/ex4/sigmoidGradient.m",
+		"/home/sebas/Develop/GoLang/src/main.go",
+		"/home/sebas/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/sebas/.config/sublime-text-3/Packages/GoSublime/9o.md",
+		"/usr/local/go/src/fmt/print.go",
+		"/home/sebas/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/sebas/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/sebas/.config/sublime-text-3/Packages/GoSublime/Default (Linux).sublime-keymap",
+		"/home/sebas/Develop/GoLang/src/bla.go",
+		"/home/sebas/Develop/GoLang/app.go",
+		"/home/sebas/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/sebas/Develop/Angular/course/app.js",
+		"/home/sebas/Develop/Angular/tests/index.html",
+		"/home/sebas/Develop/Angular/course/index.html",
+		"/home/sebas/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/tmp/t.py",
+		"/home/sebas/Develop/NodeJS/run.sh",
+		"/home/sebas/Develop/NodeJS/app/client/components/navbar/navbar.html",
+		"/home/sebas/Develop/NodeJS/app/client/app/main/main.html",
+		"/home/sebas/Develop/NodeJS/app/client/app/main/main.js",
+		"/home/sebas/Develop/NodeJS/docker/Dockerfile",
+		"/home/sebas/Develop/NodeJS/app/client/app/main/main-controller.js",
+		"/home/sebas/Develop/NodeJS/app/client/index.html",
+		"/home/sebas/Develop/NodeJS/app/package.json",
+		"/home/sebas/Develop/NodeJS/app/server/views/404.html",
+		"/home/sebas/Develop/NodeJS/app/server/components/errors/index.js",
+		"/home/sebas/Develop/NodeJS/app/server/config/express.js",
+		"/home/sebas/Develop/NodeJS/app/server/config/index.js",
+		"/home/sebas/Develop/NodeJS/app/server/routes.js",
+		"/home/sebas/Develop/NodeJS/app/server/app.js",
+		"/home/sebas/Develop/NodeJS/app/client/app/about/about.html",
+		"/home/sebas/Develop/NodeJS/app/client/app/about/about.js",
+		"/home/sebas/Develop/NodeJS/app/client/app/app.js",
+		"/home/sebas/Develop/NodeJS/app/.bowerrc",
+		"/home/sebas/Develop/NodeJS/app/bower.json",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex3/ex3/ex3.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex3/ex3/oneVsAll.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/predict.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/ex2_reg.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/plotDecisionBoundary.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/costFunction.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/costFunctionReg.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/mapFeature.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/ex2.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/plotData.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex2/ex2/sigmoid.m",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book/ch6/Rational.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch4/ChecksumAccumulator.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch4/Summer.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch4/SummerApp.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/.ensime_cache/dep-src/source-jars/scala/App.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch4/ChecksumAccumulatorObject.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/TestArrays.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/TestMaps.scala",
+		"/home/sebas/.config/sublime-text-3/Packages/Ensime/Default (Linux).sublime-keymap",
+		"/home/sebas/.config/sublime-text-3/Packages/Ensime/Ensime.sublime-settings",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/.ensime_session",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/.ensime_cache/dep-src/source-jars/scala/collection/generic/GenMapFactory.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/TestArrays2.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/.ensime",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/.ensime_cache/dep-src/source-jars/scala/Array.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/TestEchoArgs.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/wc.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/arrays.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/arrays2.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/lists.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch3/maps.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/echoargs.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/forargs.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/hello.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/helloarg.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/pa.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/src/main/scala/book.ch2/printargs.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/wc.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/wc2.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/sets.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/maps.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/tuples.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/arrays.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/arrays2.scala",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH3/lists.scala",
+		"/home/sebas/.config/sublime-text-3/Packages/Ensime/Default.sublime-mousemap",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/README.md",
+		"/home/sebas/Develop/Scala/workspace/ProgrammingScala/CH2/forargs.scala",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex1/ex1/ex1_multi.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex1/ex1/normalEqn.m",
+		"/home/sebas/Dropbox/MachineLearning/Assignments/machine-learning-ex1/ex1/featureNormalize.m",
+		"/home/sebas/Develop/AVR/sandbox/blinky1/README.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"]\n",
+			"001100100101000000000010000010100101",
+			"s",
+			" ",
+			"\\s",
+			"^.*h\\s",
+			"00000000011000001010010s0000000000000100000000000000",
+			"00010100000000011000001010010s0000000000000100000000000000",
+			"01011000000100000000011000001010",
+			"\\s+",
+			"^\\s+",
+			"\\s+",
+			"\\\".*",
+			"\\s",
+			" ",
+			",",
+			"'",
+			"s",
+			"1",
+			"0",
+			" ",
+			"10",
+			"98",
+			"\\s+",
+			"\\s*",
+			"\\s",
+			" *",
+			"\\ *",
+			"1111",
+			"11110",
+			"01111",
+			"520",
+			"space(",
+			"mark",
+			"mark(",
+			"mark",
+			"90060A",
+			"hz",
+			"K",
+			"jump",
+			"error",
+			"back",
+			"build",
+			"close",
+			"hide",
+			"+B",
+			"- ",
+			"env",
+			"gopath",
+			"format",
+			"gem",
+			"\n	",
+			"angular",
+			"\n  ",
+			"compl",
+			"project",
+			"axes",
+			"alph",
+			"main",
+			"_delay_ms"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			", ",
+			"",
+			" ",
+			"1580, ",
+			"640, ",
+			"\\t",
+			", ",
+			"\\t",
+			"640",
+			")\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/ACNoblex.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "doc/casos2",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1602,
+								1602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 269.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1672,
+								1672
+							]
+						],
+						"settings":
+						{
+							"auto_name": "00010000100100000000011000001010010000000000000010",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cuenta.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/ACNoblex.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "PlatformIO",
+	"project": "platformio.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
