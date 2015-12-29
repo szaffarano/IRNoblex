@@ -19,7 +19,7 @@
     },
     "version": "1.0.0",
     "downloadUrl": "https://github.com/szaffarano/IRNoblex/archive/v1.0.0.tar.gz",
-    "include": "IRNoblex-master",
+    "include": "IRNoblex-1.0.0",
     "frameworks": "arduino",
     "platforms": "atmelavr"
 }
