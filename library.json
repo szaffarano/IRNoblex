@@ -4,17 +4,22 @@
     "description": "Library based on IRremote for my cheap AC Noblex",
     "repository":
     {
-    "type": "git",
-    "url": "https://github.com/szaffarano/IRNoblex.git"
+        "type": "git",
+        "url": "https://github.com/szaffarano/IRNoblex.git"
     },
     "authors":
     {
         "name": "Sebastian Zaffarano",
         "url": "https://github.com/szaffarano/IRNoblex"
     },
+    "dependencies":
+    {
+        "name": "IRremote",
+        "frameworks": "arduino"
+    },
     "version": "1.0.0",
-    "downloadUrl": "https://github.com/szaffarano/IRNoblex/archive/master.zip",
-    "include": "ACNoblex",
+    "downloadUrl": "https://github.com/szaffarano/IRNoblex/archive/v1.0.0.tar.gz",
+    "include": "IRNoblex-1.0.0",
     "frameworks": "arduino",
     "platforms": "atmelavr"
 }
