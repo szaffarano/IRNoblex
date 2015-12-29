@@ -1,0 +1,154 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ir-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R2
+U 1 1 567D50C9
+P 6100 2550
+F 0 "R2" V 6180 2550 50  0000 C CNN
+F 1 "82" V 6100 2550 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6030 2550 50  0001 C CNN
+F 3 "" H 6100 2550 50  0000 C CNN
+	1    6100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 567D5126
+P 5450 3450
+F 0 "R1" V 5530 3450 50  0000 C CNN
+F 1 "10K" V 5450 3450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5380 3450 50  0001 C CNN
+F 3 "" H 5450 3450 50  0000 C CNN
+	1    5450 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 567D51F1
+P 6100 3000
+F 0 "D1" H 6100 3100 50  0000 C CNN
+F 1 "LED" H 6100 2900 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6100 3000 50  0001 C CNN
+F 3 "" H 6100 3000 50  0000 C CNN
+	1    6100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 567D53CE
+P 6100 3800
+F 0 "#PWR01" H 6100 3550 50  0001 C CNN
+F 1 "GND" H 6100 3650 50  0000 C CNN
+F 2 "" H 6100 3800 50  0000 C CNN
+F 3 "" H 6100 3800 50  0000 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 567D53FF
+P 6100 2300
+F 0 "#PWR02" H 6100 2150 50  0001 C CNN
+F 1 "VCC" H 6100 2450 50  0000 C CNN
+F 2 "" H 6100 2300 50  0000 C CNN
+F 3 "" H 6100 2300 50  0000 C CNN
+	1    6100 2300
+	1    0    0    -1  
+$EndComp
+Text Label 5100 3450 0    60   ~ 0
+UC
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 567D5501
+P 6150 2350
+F 0 "#FLG03" H 6150 2445 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 2530 50  0000 C CNN
+F 2 "" H 6150 2350 50  0000 C CNN
+F 3 "" H 6150 2350 50  0000 C CNN
+	1    6150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 2700 6100 2800
+Wire Wire Line
+	6100 3200 6100 3250
+Wire Wire Line
+	6100 3650 6100 3800
+Wire Wire Line
+	5600 3450 5800 3450
+Wire Wire Line
+	5300 3450 5100 3450
+Wire Wire Line
+	6100 2300 6100 2400
+Wire Wire Line
+	6150 2350 6100 2350
+Connection ~ 6100 2350
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 567D55BD
+P 5900 3750
+F 0 "#FLG04" H 5900 3845 50  0001 C CNN
+F 1 "PWR_FLAG" H 5900 3930 50  0000 C CNN
+F 2 "" H 5900 3750 50  0000 C CNN
+F 3 "" H 5900 3750 50  0000 C CNN
+	1    5900 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3750 6100 3750
+Connection ~ 6100 3750
+$Comp
+L Q_NPN_EBC Q1
+U 1 1 567D5B5B
+P 6000 3450
+F 0 "Q1" H 6300 3500 50  0000 R CNN
+F 1 "Q_NPN_EBC" H 6600 3400 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 6200 3550 50  0001 C CNN
+F 3 "" H 6000 3450 50  0000 C CNN
+	1    6000 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

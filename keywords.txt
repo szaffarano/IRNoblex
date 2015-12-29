@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map For IRremote
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+on KEYWORD2
+off KEYWORD2
+isOn KEYWORD2
+setLight(bool);
+getLight KEYWORD2
+setSwing KEYWORD2
+getSwing KEYWORD2
+setMode KEYWORD2
+getMode KEYWORD2
+setFanSpeed KEYWORD2
+getFanSpeed KEYWORD2
+setTemp KEYWORD2
+getTemp KEYWORD2
+sendCommand KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ON LITERAL1
+OFF LITERAL1
+
+MODE_AUTO LITERAL1
+MODE_HEAT LITERAL1
+MODE_DRY LITERAL1
+MODE_COOL LITERAL1
+MODE_FAN LITERAL1
+
+FAN_AUTO LITERAL1
+FAN_MED LITERAL1
+FAN_MIN LITERAL1
+FAN_MAX LITERAL1
