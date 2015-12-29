@@ -1,5 +1,7 @@
 ## Implementación IR para controlar A/C Noblex modelo NOS32C13X
 
+[![Build Status](https://travis-ci.org/szaffarano/IRNoblex.svg?branch=master)](https://travis-ci.org/szaffarano/IRNoblex)
+
 Es una versión preliminar, muy primitiva, deducida por ingeniería inversa analizando en osciloscopio y con un receiver TSOP48 en un Arduino.  En un raspberry pi si bien se pueden capturar tramas, los tiempos son muy dispares dada la latencia del sistema operativo.  No obtuve buenos resultados.
 
 ## Protocolo
