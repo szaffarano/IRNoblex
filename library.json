@@ -1,17 +1,20 @@
 {
-  "name": "ACNoblex",
-  "keywords": "infrared, ir, remote, air conditioner",
-  "description": "Library based on IRremote for my cheap AC Noblex",
-  "repository":
-  {
+    "name": "ACNoblex",
+    "keywords": "infrared, ir, remote, air conditioner",
+    "description": "Library based on IRremote for my cheap AC Noblex",
+    "repository":
+    {
     "type": "git",
     "url": "https://github.com/szaffarano/IRNoblex.git"
-  },
-  "frameworks": "arduino",
-  "platforms": "atmelavr",
-  "authors":
-  {
-    "name": "Sebastián Zaffarano",
-    "email": "sebas@zaffarano.com.ar"
-  }
+    },
+    "authors":
+    {
+        "name": "Sebastian Zaffarano",
+        "url": "https://github.com/szaffarano/IRNoblex"
+    },
+    "version": "1.0.0",
+    "downloadUrl": "https://github.com/szaffarano/IRNoblex/archive/master.zip",
+    "include": "ACNoblex",
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
 }
