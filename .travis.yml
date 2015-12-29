@@ -6,7 +6,8 @@ env:
     - PLATFORMIO_CI_SRC=examples/SimpleIR
 
 install:
-    - python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
+    - pip install -U platformio
+    - platformio lib install 4
 
 script:
     - platformio ci --lib="." --board=uno --board=pro16MHzatmega168
